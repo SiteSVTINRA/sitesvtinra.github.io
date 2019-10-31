@@ -1,0 +1,12 @@
+html {
+	background: #0EC438;
+	height: 100%;
+}
+
+body{
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	background-image: url("Images/fond.png");
+	background-size: 70% auto;
+}
