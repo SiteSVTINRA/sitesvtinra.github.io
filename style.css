@@ -22,6 +22,8 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	background: #92cf80; 
+	z-index: 5;
 }
 
 header div{
@@ -29,15 +31,69 @@ header div{
 }
 
 nav{
-	margin:0px 40px 0px 20px;
+	margin:0px 100px 0px 20px;
 }
 
 nav ul{
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	margin-bottom: 20px;
 	list-style-type: none;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+nav ul li a, nav ul li a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+section{
+	position: absolute;
+	top: 150px;
+	margin: 0px 0px 0px 50px;
+	font-size: 1.2em;
+	z-index: 1;
+}
+
+section h2{
+	text-decoration: underline;
+}
+
+section article{
+	margin: 0px 0px 0px 20px;
+}
+
+em{
+	text-decoration: underline;
+}
+
+section h3{
+	margin-left: 50px;
+}
+
+section table{
+	width: 75%;
+
+}
+
+section table tr{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+section table tr td{
+	display: flex;
+	flex-direction: row;
+}
+
+section table tr td img{
+	margin-right: 10px;
+
+section table tr td p .chiffre{
+	color: #2a968c;
+	font-weight: bold;
 }
