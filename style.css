@@ -74,6 +74,10 @@ em{
 	text-decoration: underline;
 }
 
+strong{
+	font-weight: bold;
+}
+
 section h3{
 	margin-left: 50px;
 }
