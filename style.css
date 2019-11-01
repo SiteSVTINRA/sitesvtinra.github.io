@@ -50,6 +50,10 @@ nav ul li a, nav ul li a:visited{
 	font-size: 1.2em;
 }
 
+nav ul li a:hover{
+	color: #777;
+}
+
 section{
 	position: absolute;
 	top: 150px;
@@ -93,6 +97,7 @@ section table tr td{
 
 section table tr td img{
 	margin-right: 10px;
+}
 
 section table tr td p .chiffre{
 	color: #2a968c;
