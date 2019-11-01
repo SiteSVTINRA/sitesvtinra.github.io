@@ -11,7 +11,7 @@ body{
 
 header{
 	width: 98%;
-    margin: 2px 2px 10px 2px;
+    margin: 0px 0px 10px 0px;
 	border: 2px black solid;
 	padding: 0px 10px 0px 10px;
 	/*positionnement*/
@@ -67,7 +67,8 @@ section h2{
 }
 
 section article{
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 30px 20px;
+	width: 90%;
 }
 
 em{
@@ -106,4 +107,12 @@ section table tr td img{
 section table tr td p .chiffre{
 	color: #2a968c;
 	font-weight: bold;
+}
+
+a, a:visited{
+	color: black;
+}
+
+.center{
+	margin-left: 30px;
 }
