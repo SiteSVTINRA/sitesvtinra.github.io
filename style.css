@@ -4,14 +4,16 @@ html {
 }
 
 body{
-	width: 100%;
-	height: 100%;
+	width: 75%;
+	height: 250%;
 	margin: auto;
+	background-image: url("fond.jpg");
+	background-repeat: repeat;
 }
 
 header{
 	width: 98%;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 50px 0px;
 	border: 2px black solid;
 	padding: 0px 10px 0px 10px;
 	/*positionnement*/
@@ -60,10 +62,12 @@ section{
 	margin: 0px 0px 0px 50px;
 	font-size: 1.2em;
 	z-index: 1;
+	width: 75%;
 }
 
 section h2{
 	text-decoration: underline;
+	margin: 30px 0px 0px 0px;
 }
 
 section article{
