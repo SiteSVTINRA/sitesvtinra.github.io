@@ -5,7 +5,7 @@ html {
 
 body{
 	width: 75%;
-	height: 250%;
+	height: 300%;
 	margin: auto;
 	background-image: url("fond.jpg");
 	background-repeat: repeat;
@@ -85,11 +85,6 @@ strong{
 
 section h3{
 	margin-left: 50px;
-}
-
-section table{
-	width: 75%;
-
 }
 
 section table tr{
