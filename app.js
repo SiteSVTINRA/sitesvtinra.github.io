@@ -12,7 +12,8 @@ function NewMenu(text, href){
 
 }
 
-NewMenu("Accueil", "index.html");
+NewMenu("Accueil­­", "index.html");
 NewMenu("L'INRA et le site de Gotheron", "hist.html");
 NewMenu("L'essai de pêchers visité", "essai.html");
 NewMenu("Bilan de notre sortie", "concl.html");
+NewMenu("Annexe", "annexe.html")
