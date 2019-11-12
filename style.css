@@ -148,3 +148,31 @@ figure{
 	margin: 0;
 }
 
+#slider img{
+	float: left;
+	position: relative;
+	animation-name: slide;
+	animation-delay: 1s;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#slider ul{
+	display: flex;
+	width: 322px;
+	height: 242px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	margin-left: 50px;
+}
+
+@keyframes slide{
+	0%{left:0px;}
+	25%{left: -322px;}
+	50%{left: -644px;}
+	75%{left: -966px;}
+	100%{left: 0px;}
+}
+
