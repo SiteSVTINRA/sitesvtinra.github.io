@@ -5,7 +5,7 @@ html {
 
 body{
 	width: 75%;
-	height: 310%;
+	height: 350%;
 	margin: auto;
 	background-image: url("fond.jpg");
 	background-repeat: repeat;
@@ -129,3 +129,22 @@ a, a:visited{
 .align p{
 	margin-top: 50px;
 }
+
+figure #last{
+	width:100%;
+}
+
+#last figcaption{
+	text-align: center;
+}
+
+figcaption{
+	margin-left: 5%;
+	font-size: 0.9em;
+	font-style: oblique;
+}
+
+figure{
+	margin: 0;
+}
+
